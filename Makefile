@@ -396,10 +396,7 @@ KBUILD_AFLAGS += \
 else
 KBUILD_CFLAGS += \
 		-fdiagnostics-color \
-		-fgraphite \
-		-fgraphite-identity \
 		-fira-loop-pressure \
-		-floop-nest-optimize \
 		-fmodulo-sched \
 		-fmodulo-sched-allow-regmoves \
 		-ftree-vectorize \
